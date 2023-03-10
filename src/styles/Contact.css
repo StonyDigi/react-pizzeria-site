@@ -1,0 +1,67 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background: #121619;
+    color: #fff;
+    
+}
+
+.contactTop {
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.contact form  {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+}
+.contact form input, textarea  {
+    margin-top: 20px;
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact form button {
+    background: none;
+    color: #fff;
+    border-color: #fff;
+    width: 31.3%;
+    height: 50px;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background: #fa3011;
+    transition: background 0.2s ease;
+}
+
+.contactFooter ul {
+    list-style: none;
+    padding: 20px;
+}
